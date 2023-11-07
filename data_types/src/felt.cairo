@@ -15,12 +15,11 @@ fn main() {
     x.print();
     y.print();
 
-    shortString();
+    short_string();
 }
 
 // felt252 is used to store strings up to 31 characters
-
-fn shortString() {
+fn short_string() {
     let string: felt252 = 'Bonjour';
     string.print();
 }
