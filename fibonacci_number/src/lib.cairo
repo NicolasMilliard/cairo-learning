@@ -2,7 +2,7 @@ use debug::PrintTrait;
 
 // Run with: scarb cairo-run --available-gas=200000000 
 fn main() {
-    fibonacci(12);
+    fibonacci(12).print();
 }
 
 // fib(n) = fib(n-1) + fib(n-2)
